@@ -34,6 +34,9 @@ async def test_fan_state(
 
     # Check device registry
     devices = dr.async_entries_for_config_entry(device_registry, config_entry.entry_id)
+    # print(devices)
+    # print("snapshot")
+    # print(snapshot(name="devices"))
     assert devices == snapshot(name="devices")
 
     # Check entity registry

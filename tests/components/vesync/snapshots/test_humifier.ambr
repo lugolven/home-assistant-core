@@ -1,0 +1,17 @@
+# serializer version: 1
+# name: test_fan_state[Humidifier 200s][devices]
+  list([
+  ])
+# ---
+# name: test_fan_state[Humidifier 200s][entities]
+  list([
+  ])
+# ---
+# name: test_fan_state[Humidifier 600S][devices]
+  list([
+  ])
+# ---
+# name: test_fan_state[Humidifier 600S][entities]
+  list([
+  ])
+# ---

@@ -8,6 +8,7 @@ VS_SWITCHES = "switches"
 VS_FANS = "fans"
 VS_LIGHTS = "lights"
 VS_SENSORS = "sensors"
+VS_HUMIDIFIERS = "humidifiers"
 VS_MANAGER = "manager"
 
 DEV_TYPE_TO_HA = {
@@ -47,6 +48,7 @@ SKU_TO_BASE_DEVICE = {
     "Core600S": "Core600S",
     "LAP-C601S-WUS": "Core600S",  # Alt ID Model Core600S
     "LAP-C601S-WUSR": "Core600S",  # Alt ID Model Core600S
+    "LUH-A602S-WUS": "LUH-A602S-WUS",
     "LAP-C601S-WEU": "Core600S",  # Alt ID Model Core600S,
     "Vital200S": "Vital200S",
     "LAP-V201S-AASR": "Vital200S",  # Alt ID Model Vital200S
